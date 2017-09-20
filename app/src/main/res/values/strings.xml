@@ -1,8 +1,18 @@
 <resources>
     <string name="app_name">Personas</string>
     <string name="agregar">AGREGAR</string>
+    <string name="cedula">CEDULA</string>
     <string name="nombre">NOMBRE</string>
     <string name="apellido">APELLIDO</string>
-    <string name="cedula">CEDULA</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
     <string name="numero">NUMERO</string>
+    <string name="crear">Crear</string>
+    <string name="listar">Listar</string>
+   <array name="Opciones">
+       <item>@string/crear</item>
+       <item>@string/listar</item>
+   </array>
+    <string name="mensaje_exitoso">Persona Guardada</string>
+
 </resources>

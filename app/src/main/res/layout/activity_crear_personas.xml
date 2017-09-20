@@ -28,8 +28,7 @@
         android:ems="10"
         android:hint="@string/cedula"
         android:inputType="textPersonName"
-        android:paddingTop="10dp"
-        android:text="Cedula" />
+        android:paddingTop="10dp" />
 
     <EditText
         android:id="@+id/txtNombre"
@@ -37,8 +36,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/nombre"
-        android:inputType="textPersonName"
-        android:text="Nombre" />
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/txtApellido"
@@ -46,8 +44,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/apellido"
-        android:inputType="textPersonName"
-        android:text="Apellido" />
+        android:inputType="textPersonName" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,7 +57,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:elevation="0dp"
-            android:text="GUARDAR" />
+            android:onClick="guardar"
+            android:text="@string/guardar" />
 
         <Button
             android:id="@+id/LIMPIAR"
